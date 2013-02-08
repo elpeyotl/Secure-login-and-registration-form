@@ -1,0 +1,71 @@
+/*TESTING*/
+
+.bg {
+	background-color:green;
+}
+
+/*FORMATING LAYOUT*/
+
+body {
+	background-image: url(../img/shattered.png);
+	background-attachment: fixed;
+	text-shadow: 1px 1px 1px #fff; 
+}
+
+#mainwrapper {
+	height:1000px;
+	margin:0 auto;
+
+}
+#content {
+	margin-top:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.span4 form {
+	margin:0 auto;
+}
+
+h1, h4, p {
+	text-align: center;
+}
+
+.error {
+	width:170px;
+	display: none;
+	margin-top:10px;
+}
+
+#success {
+	width:170px;
+	display: none;
+	margin-top:10px;
+}
+
+
+
+
+
+
+
+
+/*FONTSIZES*/
+body {
+	font-size: 80%;
+	
+}
+
+.font-size(@font-size:16){
+	@rem: (@font-size /10);
+	font-size: @font-size * 1px;
+	font-size: ~"@{rem}rem";
+}
+
+
+
+
+
+
+
+
