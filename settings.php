@@ -63,7 +63,7 @@ CREATE TABLE `secure_login`.`login_attempts` (
             <img src="img/db_connect.png" width='auto' align="center"/>
 
             <h4>And BOOM! You are done!</h4>
-            <p><a href="http://www.peyotedesign/securelogin">See the demo</a></p>
+            <p><a href="http://www.peyotedesign.ch/securelogin">See the demo</a></p>
             <p>Thank you wiki-how for the scripts! <a href="http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL">Article</a><p>
 
                   <p>
