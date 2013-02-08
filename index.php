@@ -32,8 +32,9 @@
             <div class="container-fluid" id="content">
                 <h1>Secure login & registration form</h1>
                 <h4>Thats an example how to setup a secure login and registration from</h4>
-                <p>Make sure you setup your database correct as written in the readme file on the github repo.<br>
-                  Change your database settings in the /secure/db_connect.php file</p>
+                <p>Make sure you setup your database correct as written in the settings page.</p>
+                <p><a href="http://www.peyotedesign.ch/securelogin/settings.php">Set it up!</a><br>
+                    <a href="https://github.com/elpeyotl/Secure-login-and-registration-form">Project on Github</a>
                   <p>Login Form</p>
 
                   <!--LoginForm-->
@@ -127,6 +128,21 @@
 </form>
 </div><!--/span4-->
 </div><!--/row-fluid-->
+</div>
+
+<p>Thank you wiki-how for the scripts! <a href="http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL">Article</a><p>
+
+
+    <p>
+<ul id="circles">
+                <li class="circle"></li>
+                <li class="circle"></li>
+                <li class="circle"></li>
+                <br><a href="http://www.peyotedesign.ch">PeyoteCode</a>
+            </ul>
+    </p>
+
+
 
 
 
@@ -149,6 +165,21 @@
       $(".error").fadeIn("slow");
       $("#success").fadeIn("slow");
     });
+    </script>
+
+      <!--GOOGLE ANALYTICS-->
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38301376-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
     </script>
 
 </body>
